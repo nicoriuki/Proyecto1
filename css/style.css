@@ -1,9 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header,
-.contacto,
 .nosotros,
-.index,
-.galeria,
-.productos {
+.index {
   background-size: 100% auto;
   background-color: #616060cc;
 }
@@ -21,22 +24,20 @@
   align-items: center;
   height: 15vh;
   padding: 0 20px;
-  z-index: 100;
 }
 .navbar {
-  position: absolute;
+  position: sticky;
+  top: 0;
   z-index: 100;
+  height: auto;
+  width: 100%;
 }
 
 .navbar img {
   width: 30px;
 }
-.main__img{
+.main__img {
   object-fit: cover;
-}
-.contacto {
-  background-image: url(../images/contacto.jpg);
-  color: white;
 }
 .nosotros {
   background-image: url(../images/nosotrosfondo.jpg);
@@ -46,34 +47,25 @@
   text-align: center;
 }
 
-.nosotro__div-img{
-  display:inline-block; 
+.nosotro__div-img {
+  display: inline-block;
   overflow: hidden;
   width: 140px;
   height: 140px;
 }
-.nosotros__img{
-  
-      width: 140px;
-      height: 140px;
-      transition:transform 2s linear;
-
-      
-
-     
+.nosotros__img {
+  width: 140px;
+  height: 140px;
+  transition: transform 2s linear;
 }
-.nosotros__img:hover{
-      transform:scale(1.3);
-      
-      
+.nosotros__img:hover {
+  transform: scale(1.3);
 }
 .index {
   background-image: url(../images/indexfondo1.jpg);
   color: black;
 }
-.carusel__img{
-  object-fit: cover;
-}
+
 .footer {
   width: 100%;
   background-color: #f5f5f5;
@@ -102,15 +94,16 @@
     opacity: 0;
   }
 }
-.btn-animacion:hover{
-	animation: 5s btn infinite;
+.btn-animacion:hover {
+  animation: 5s btn infinite;
 }
 
-@keyframes btn{
-	25%, 75%{
-		-webkit-transform:scale(0.8);
-	}
-	50%{
-		-webkit-transform:scale(1.1);
-	}
+@keyframes btn {
+  25%,
+  75% {
+    -webkit-transform: scale(0.8);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+  }
 }
