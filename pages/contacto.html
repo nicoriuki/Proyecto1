@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTACTO</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../scripts/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="contacto">
+  <header class="header">
+    <h1 class="header__title">Desafio Bootstrap</h1>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="Fotografia"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Galeria y Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="galeria.html">Galeria</a></li>
+              <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex ">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main class="container mt-5">
+    <form class="row g-3 was-validated justify-content-md-center" novalidate>
+      <div class="row justify-content-md-center">
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="form-control " id="validationCustom01" value="" required>
+          <div class="valid-feedback">
+            Muy Bien!
+          </div>
+          <div class="invalid-feedback">
+            Pon tu Nombre
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationCustom02" value="" required>
+          <div class="valid-feedback">
+            Muy Bien!
+          </div>
+          <div class="invalid-feedback">
+            Por tu Apellido
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Email</label>
+          <input type="Email" class="form-control" id="validationCustom03" value="" required>
+          <div class="valid-feedback">
+            Muy Bien!
+          </div>
+          <div class="invalid-feedback">
+            Pon tu Email
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-4">
+          <label for="validationCustom04" class="form-label">Provincia</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Elegi una Provincia</option>
+            <option value="Buenos Aires">Buenos Aires</option>
+            <option value="Buenos Aires Capital">Buenos Aires Capital</option>
+            <option value="Catamarca">Catamarca</option>
+            <option value="Chaco">Chaco</option>
+            <option value="Chubut">Chubut</option>
+            <option value="Cordoba">Cordoba</option>
+            <option value="Corrientes">Corrientes</option>
+            <option value="Entre Rios">Entre Rios</option>
+            <option value="Formosa">Formosa</option>
+            <option value="Jujuy">Jujuy</option>
+            <option value="La Pampa">La Pampa</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Mendoza">Mendoza</option>
+            <option value="Misiones">Misiones</option>
+            <option value="Neuquen">Neuquen</option>
+            <option value="Rio Negro">Rio Negro</option>
+            <option value="Salta">Salta</option>
+            <option value="San Juan">San Juan</option>
+            <option value="San Luis">San Luis</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Santa Fe">Santa Fe</option>
+            <option value="Santiago del Estero">Santiago del Estero</option>
+            <option value="Tierra del Fuego">Tierra del Fuego</option>
+            <option value="Tucuman">Tucuman</option>
+          </select>
+          <div class="invalid-feedback">
+            Por Favor Seleciona una Provincia.
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom05" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Por Favor Pon una Ciudad.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <label for="validationCustom06" class="form-label">Consulta</label>
+        <textarea class="form-control" name="" id="validationCustom06" cols="30" rows="10" required></textarea>
+        <div class="invalid-feedback">
+          Dejanos tu Consulta.
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-1  ">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </div>
+    </form>
+  </main>
+  <div class="footer">
+    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="text-muted">© 2022 Nicolas Marquez</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
+        <li class="ms-3"><a class="text-muted" href="#">
+            <img src="../images/whatsapp.png">
+          </a></li>
+        <li class="ms-3"><a class="text-muted" href="#">
+            <img src="../images/twitter.png">
+          </a></li>
+        <li class="ms-3"><a class="text-muted" href="#">
+            <img src="../images/instagram.png"></a></li>
+        <li class="ms-3"><a class="text-muted" href="#">
+            <img src="../images/facebook.png">
+          </a></li>
+      </ul>
+    </footer>
+  </div>
+
+</body>
+
+</html>
