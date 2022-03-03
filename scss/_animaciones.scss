@@ -1,0 +1,27 @@
+.logo-animacion:hover {
+    animation: 0.3s logo infinite;
+  }
+  
+  @keyframes logo {
+    50% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  .btn-animacion:hover {
+    animation: 5s btn infinite;
+  }
+  
+  @keyframes btn {
+    25%,
+    75% {
+      -webkit-transform: scale(0.8);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+    }
+  }
+  

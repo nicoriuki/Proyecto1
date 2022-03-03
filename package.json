@@ -1,7 +1,7 @@
 {
-  "name": "nuevoproyecto",
+  "name": "proyectocoderhouse",
   "version": "1.0.0",
-  "description": "",
+  "description": "Servicio de fotografia y venta de productos fotograficos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

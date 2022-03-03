@@ -1,0 +1,14 @@
+.header {
+    background: linear-gradient(
+      90deg,
+      $gris 0%,
+      $gris-oscuro 66%,
+      $gris1 100%
+    );
+    color: $gris-blanco;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    padding: 0 20px;
+  }
