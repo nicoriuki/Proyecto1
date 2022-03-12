@@ -1,0 +1,24 @@
+.nosotros {
+      background-image: url(../images/nosotrosfondo.jpg);
+      color: $gris-blanco;
+}
+.nosotros__cards {
+      text-align: center;
+}
+
+.nosotro__div-img {
+      display: inline-block;
+      overflow: hidden;
+      width: 140px;
+      height: 140px;
+}
+.nosotros__img {
+      width: 140px;
+      height: 140px;
+      filter: grayscale(100%);
+      transition: filter 2s ease-in-out 1s, transform 2s linear;
+      &:hover {
+            transform: scale(1.3);
+            filter: grayscale(0%);
+      }
+}

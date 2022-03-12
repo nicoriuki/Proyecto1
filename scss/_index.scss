@@ -1,0 +1,17 @@
+.byw {
+      filter: grayscale(100%);
+      transition: filter 2s ease-in-out;
+      &:hover {
+            filter: grayscale(0%);
+      }
+}
+.main__img {
+      object-fit: cover;
+      @extend.byw;
+}
+
+.index {
+      background-image: url(../images/indexfondo1.jpg);
+      background-size: cover;
+      color: $gris-oscuro1;
+}

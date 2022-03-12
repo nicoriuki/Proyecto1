@@ -1,12 +1,15 @@
+@mixin sizes($width, $height) {
+      height: $height;
+      width: $width;
+}
 .navbar {
-    background-color: $gris-claro!important;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    height: auto;
-    width: 100%;
-    img {
-        width: 30px;
+      background-color: $gris-claro !important;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      @include sizes(100%, auto);
+
+      img {
+            width: 30px;
       }
-  }
-  
+}
