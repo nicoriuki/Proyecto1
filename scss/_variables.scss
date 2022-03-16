@@ -6,3 +6,7 @@ $gris1: #495057;
 $gris-oscuro: #343a40;
 $gris-oscuro1: #212529;
 $gradient: linear-gradient(90deg, $gris 0%, $gris-oscuro 66%, $gris1 100%);
+@mixin sizes($width, $height) {
+      height: $height;
+      width: $width;
+}

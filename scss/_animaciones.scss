@@ -1,27 +1,53 @@
 .logo-animacion:hover {
-    animation: 0.3s logo infinite;
-  }
-  
-  @keyframes logo {
-    50% {
-      opacity: 1;
-    }
-    25%,
-    75% {
-      opacity: 0;
-    }
-  }
-  .btn-animacion:hover {
-    animation: 5s btn infinite;
-  }
-  
-  @keyframes btn {
-    25%,
-    75% {
-      -webkit-transform: scale(0.8);
-    }
-    50% {
-      -webkit-transform: scale(1.1);
-    }
-  }
-  
+      animation: 0.3s logo infinite;
+}
+
+@keyframes logo {
+      50% {
+            opacity: 1;
+      }
+      25%,
+      75% {
+            opacity: 0;
+      }
+}
+.btn-animacion:hover {
+      animation: 5s btn infinite;
+}
+
+@keyframes btn {
+      25%,
+      75% {
+            -webkit-transform: scale(0.8);
+      }
+      50% {
+            -webkit-transform: scale(1.1);
+      }
+}
+
+@keyframes borde {
+      11% {
+            border-color: #f37055;
+      }
+      22% {
+            border-color: #ef4e7b;
+      }
+      33% {
+            border-color: #a166ab;
+      }
+      44% {
+            border-color: #5073b8;
+      }
+      55% {
+            border-color: #1098ad;
+      }
+      66% {
+            border-color: #07b39b;
+      }
+      77% {
+            border-color: #6fba82;
+      }
+      88% {
+            border-color: #f79533;
+      }
+}

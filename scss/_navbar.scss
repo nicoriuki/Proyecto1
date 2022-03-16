@@ -1,7 +1,3 @@
-@mixin sizes($width, $height) {
-      height: $height;
-      width: $width;
-}
 .navbar {
       background-color: $gris-claro !important;
       position: sticky;
