@@ -1,4 +1,9 @@
 .contacto {
+      background-color: black;
       background-image: url(../images/contacto1.jpg);
       color: $gris-blanco;
+      main {
+            background-color: rgba(0, 0, 0, 0.281);
+            border-radius: 5px;
+      }
 }

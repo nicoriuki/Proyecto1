@@ -4,6 +4,17 @@
 }
 .nosotros__cards {
       text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      .descripcion1 {
+            display: none;
+      }
+      .descripcion2 {
+            display: none;
+      }
+      .descripcion3 {
+            display: none;
+      }
 }
 
 .nosotro__div-img {

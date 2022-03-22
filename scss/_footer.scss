@@ -3,9 +3,8 @@
       background-color: $gris-blanco;
       color: $gris-oscuro1;
       bottom: 0;
-      position: sticky;
-      z-index: 2;
-      margin-top: 100px;
+      position: static;
+      margin-top: 50px;
 }
 .icono {
       width: 4vh;

@@ -2,6 +2,8 @@
 
 ## _Somos Fotografos_
 
+**Link a la pagina [https://nicoriuki.github.io/Proyecto1/](https://nicoriuki.github.io/Proyecto1/)**
+
 **Cambios realizados**
 
 - se creeo un archivo scss para cada pagina
@@ -15,3 +17,9 @@
 
 - se agregaron efectos a el borde de las cards borde
 - se arreglaron colores de los botones
+
+### **20/03/2022**
+
+-se corrigio la position de footer
+-se agrego un fondo transparente a contactos y nosotros para poder resaltar
+-se cambiaron los Lorem de la descripcion de los fotografos por texto editado (Sacados de Wikipedia)
