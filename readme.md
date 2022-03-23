@@ -22,4 +22,8 @@
 
 -se corrigio la position de footer
 -se agrego un fondo transparente a contactos y nosotros para poder resaltar
+
+### **22/03/2022**
+
 -se cambiaron los Lorem de la descripcion de los fotografos por texto editado (Sacados de Wikipedia)
+-se agerego pagina 404
