@@ -5,5 +5,14 @@
       main {
             background-color: rgba(0, 0, 0, 0.281);
             border-radius: 5px;
+            input {
+                  text-align: center;
+            }
+            option {
+                  text-align: center;
+            }
+            textarea {
+                  text-align: center;
+            }
       }
 }

@@ -10,12 +10,12 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/main.css">
   <meta name="description" content="Somos un grupo de fotografos.....">
-  <meta name="keywords" content="Fotografia, camaras, arte, fotografos ">
+  <meta name="keywords" content="Fotografia, camaras, arte, fotografos,nosotros ">
 </head>
 
 <body class="nosotros">
   <header class="header">
-    <h1 class="header__title">Somos Fotografos</h1>
+    <h1 class="header__title ml3">Somos Fotografos</h1>
   </header>
   <nav class="navbar navbar-expand-lg  navbar-light bg-light">
     <div class="container-fluid">
@@ -46,21 +46,27 @@
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+          <input class="form-control me-2 buscar" type="search" placeholder="Buscar" aria-label="Search">
         </form>
       </div>
     </div>
   </nav>
   <main class="container mt-4">
     <div class="text-lg-center">
-      <h2 class="display-3">Sobre Nosotros</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis molestias, sed ducimus quibusdam dolorem
-        doloribus dolor nisi corrupti, in odio assumenda voluptatibus. Minima explicabo facere dolor dolorem iure, nihil
-        ipsa.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veritatis consequatur doloribus culpa
-        similique ducimus ad corporis voluptatem fugit explicabo? Minima aperiam labore aspernatur explicabo recusandae
-        esse sed necessitatibus rerum!
+      <h2 class="display-3 ml5">
+        <span class="text-wrapper">
+          <span class="letters letters-left">Sobre</span>
+          <span class="letters ampersand">//</span>
+          <span class="letters letters-right">Nosotros</span>
+      </h2>
+      </span>
+      <p>Somos un grupo de fotógrafos, dedicados a la naturaleza y a la fotografía artística , utilizamos muchas
+        técnicas , sobre
+        todo el blanco y negro , también hacemos fotografía de estudio y de productos de alta calidad, somos un equipo
+        muy unido
+        que llevamos adelante esta empresa</p>
+      <p>Seguimos la influencia de grandes fotografos de todas las epocas, nos manejamos con productos analogicos como
+        digitales
       </p>
     </div>
     <div class="row  justify-content-center">
@@ -72,7 +78,7 @@
         <p>(San Francisco, California, 20 de febrero de 1902 - 22 de abril de 1984) fue un fotógrafo estadounidense,
           conocido por
           desarrollar el sistema de zonas.</p>
-        <div class="descripcion1">
+        <div class="descripcion1 none">
           <p>Ansel Easton Adams nació el 20 de febrero de 1902 en San Francisco, California. Cuando Adams tan solo tenía
             cuatro
             años, estuvo presente en el <a href="https://es.wikipedia.org/wiki/Terremoto_de_San_Francisco_de_1906"
@@ -113,7 +119,7 @@
           cuyo
           trabajo se orienta hacia la naturaleza.
         </p>
-        <div class="descripcion2">
+        <div class="descripcion2 none">
           <p>Comienza su trabajo en fotografía en el año 1901, como estudiante en la <a
               href="https://es.wikipedia.org/wiki/Universidad_de_Washington" target="_blank" rel="noopener">Universidad
               de Washington</a> de
@@ -149,7 +155,7 @@
         <p>(Nueva York, 3 de marzo de 1918 - 6 de junio de 2006) fue un fotógrafo estadounidense muy conocido por sus
           retratos de
           artistas y obras de alta calidad.</p>
-        <div class="descripcion3">
+        <div class="descripcion3 none">
           <p>Nació en <a href="https://es.wikipedia.org/wiki/Manhattan" target="_blank" rel="noopener">Manhattan</a>
             pero paso su infancia en <a href="https://es.wikipedia.org/wiki/Atlantic_City" target="_blank"
               rel="noopener">Atlantic City</a> y luego realizó estudios de
@@ -176,18 +182,18 @@
         <span class="text-muted">© 2022 Nicolas Marquez</span>
       </div>
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
-        <li class="ms-3"><a href="#">
+        <li class="ms-3"><a href="https://www.facebook.com" target="_blank" rel="noopener">
             <div class="facebook "></div>
           </a></li>
         <li class="ms-3">
-          <a href="#">
+          <a href="https://www.whatsapp.com" target="_blank" rel="noopener">
             <div class="whatsapp "></div>
           </a>
         </li>
-        <li class="ms-3"><a href="#">
+        <li class="ms-3"><a href="https://www.instagram.com" target="_blank" rel="noopener">
             <div class="instagram "></div>
           </a></li>
-        <li class="ms-3"><a c href="#">
+        <li class="ms-3"><a href="https://www.twitter.com" target="_blank" rel="noopener">
             <div class="twitter "></div>
           </a></li>
       </ul>
@@ -200,16 +206,9 @@
     <div class="modal-dialog">
       <div class="modal-content ">
         <div class="modal-header shadow justify-content-center">
-          <h5 class="modal-title " id="staticBackdropLabel">
-            <!-- Nombre y Aprellido Del Fotografo -->
-          </h5>
-          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          <h5 class="modal-title " id="staticBackdropLabel"></h5>
         </div>
-        <div class="modal-body">
-          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officiis distinctio quo voluptates
-            numquam nulla, molestias eum molestiae vel quas harum deserunt velit, reprehenderit reiciendis cupiditate
-            repellendus veritatis sequi dolore.</p> -->
-        </div>
+        <div class="modal-body"></div>
         <div class="modal-footer justify-content-center">
           <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">Cerrar</button>
         </div>
@@ -217,8 +216,9 @@
     </div>
   </div>
   <script src="../scripts/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="../scripts/nosotros.js"></script>
   <script src="../scripts/main.js"></script>
-
 </body>
 
 </html>

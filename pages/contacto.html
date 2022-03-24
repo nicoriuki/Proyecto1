@@ -15,7 +15,7 @@
 
 <body class="contacto">
   <header class="header">
-    <h1 class="header__title">Somos Fotografos</h1>
+    <h1 class="header__title ml3">Somos Fotografos</h1>
   </header>
   <nav class="navbar navbar-expand-lg  navbar-light bg-light">
     <div class="container-fluid">
@@ -46,8 +46,7 @@
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+          <input class="form-control me-2 buscar" type="search" placeholder="Buscar" aria-label="Search">
         </form>
       </div>
     </div>
@@ -57,35 +56,17 @@
       <div class="row justify-content-md-center">
         <div class="col-md-4">
           <label for="validationCustom01" class="form-label">Nombre</label>
-          <input type="text" class="form-control " id="validationCustom01" value="" required>
-          <div class="valid-feedback">
-            Muy Bien!
-          </div>
-          <div class="invalid-feedback">
-            Pon tu Nombre
-          </div>
+          <input type="text" class="form-control " id="validationCustom01" placeholder="Nombre" required>
         </div>
         <div class="col-md-4">
           <label for="validationCustom02" class="form-label">Apellido</label>
-          <input type="text" class="form-control" id="validationCustom02" value="" required>
-          <div class="valid-feedback">
-            Muy Bien!
-          </div>
-          <div class="invalid-feedback">
-            Por tu Apellido
-          </div>
+          <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" required>
         </div>
       </div>
       <div class="row justify-content-md-center">
         <div class="col-md-6">
           <label for="validationCustom03" class="form-label">Email</label>
-          <input type="Email" class="form-control" id="validationCustom03" value="" required>
-          <div class="valid-feedback">
-            Muy Bien!
-          </div>
-          <div class="invalid-feedback">
-            Pon tu Email
-          </div>
+          <input type="Email" class="form-control" id="validationCustom03" placeholder="EMAIL" required>
         </div>
       </div>
       <div class="row justify-content-md-center">
@@ -118,26 +99,19 @@
             <option value="Tierra del Fuego">Tierra del Fuego</option>
             <option value="Tucuman">Tucuman</option>
           </select>
-          <div class="invalid-feedback">
-            Por Favor Seleciona una Provincia.
-          </div>
         </div>
         <div class="col-md-4">
           <label for="validationCustom05" class="form-label">Ciudad</label>
-          <input type="text" class="form-control" id="validationCustom05" required>
-          <div class="invalid-feedback">
-            Por Favor Pon una Ciudad.
-          </div>
+          <input type="text" class="form-control" id="validationCustom05" placeholder="Por Favor Pon una Ciudad"
+            required>
         </div>
       </div>
       <div class="col-md-8">
         <label for="validationCustom06" class="form-label">Consulta</label>
-        <textarea class="form-control" name="" id="validationCustom06" cols="30" rows="10" required></textarea>
-        <div class="invalid-feedback">
-          Dejanos tu Consulta.
-        </div>
+        <textarea class="form-control" name="" id="validationCustom06" cols="30" rows="10"
+          placeholder="DEJANOS TU CONSULTA" required></textarea>
       </div>
-      <div class="row justify-content-md-center">
+      <div class="row justify-content-md-center mt-4">
         <div class="col-1  ">
           <button class="btn btn-outline-light" type="submit">Enviar</button>
         </div>
@@ -150,24 +124,26 @@
         <span class="text-muted">© 2022 Nicolas Marquez</span>
       </div>
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
-        <li class="ms-3"><a href="#">
+        <li class="ms-3"><a href="https://www.facebook.com" target="_blank" rel="noopener">
             <div class="facebook "></div>
           </a></li>
         <li class="ms-3">
-          <a href="#">
+          <a href="https://www.whatsapp.com" target="_blank" rel="noopener">
             <div class="whatsapp "></div>
           </a>
         </li>
-        <li class="ms-3"><a href="#">
+        <li class="ms-3"><a href="https://www.instagram.com" target="_blank" rel="noopener">
             <div class="instagram "></div>
           </a></li>
-        <li class="ms-3"><a c href="#">
+        <li class="ms-3"><a href="https://www.twitter.com" target="_blank" rel="noopener">
             <div class="twitter "></div>
           </a></li>
       </ul>
     </footer>
   </div>
   <script src="../scripts/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="../scripts/main.js"></script>
 </body>
 
 </html>

@@ -2,7 +2,22 @@
 
 ## _Somos Fotografos_
 
+Pagina sobre fotografia realiza para la entrega final de Coder House
+
 **Link a la pagina [https://nicoriuki.github.io/Proyecto1/](https://nicoriuki.github.io/Proyecto1/)**
+
+## Herramientas
+
+- HTML
+- CSS
+- SASS
+- BOOTSTRAP
+- JS
+- SEO
+
+## Autor
+
+- [Nicolas Marquez](https://github.com/nicoriuki)
 
 **Cambios realizados**
 
@@ -27,3 +42,17 @@
 
 -se cambiaron los Lorem de la descripcion de los fotografos por texto editado (Sacados de Wikipedia)
 -se agerego pagina 404
+
+### **23/03/2022**
+
+-se agrego la libreria moving-letters
+
+### **24/03/2022**
+
+- se agrego el efecto de de la barra de buscar
+- se arreglaron todos los links externos
+- se agrego efecto de los iconos del footer
+- se emprolijo el codigo
+  -se entrego el proyecto
+
+todas las imagenes fueron descargadas de google

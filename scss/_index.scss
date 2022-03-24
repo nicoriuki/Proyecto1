@@ -5,7 +5,7 @@
             filter: grayscale(0%);
       }
 }
-.main__img {
+.index__img {
       object-fit: cover;
       @extend.byw;
 }
@@ -14,4 +14,7 @@
       background-image: url(../images/indexfondo1.jpg);
       background-size: cover;
       color: $gris-oscuro1;
+}
+.index__card * {
+      border-radius: 5px;
 }

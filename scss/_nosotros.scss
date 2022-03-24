@@ -2,30 +2,22 @@
       background-image: url(../images/nosotrosfondo.jpg);
       color: $gris-blanco;
 }
+.none {
+      display: none;
+}
 .nosotros__cards {
       text-align: center;
       background-color: rgba(0, 0, 0, 0.5);
       border-radius: 5px;
-      .descripcion1 {
-            display: none;
-      }
-      .descripcion2 {
-            display: none;
-      }
-      .descripcion3 {
-            display: none;
-      }
 }
 
 .nosotro__div-img {
       display: inline-block;
       overflow: hidden;
-      width: 140px;
-      height: 140px;
+      @include sizes(140px, 140px);
 }
 .nosotros__img {
-      width: 140px;
-      height: 140px;
+      @include sizes(140px, 140px);
       filter: grayscale(100%);
       transition: filter 2s ease-in-out 1s, transform 2s linear;
       &:hover {

@@ -1,13 +1,47 @@
-const d = document,
-      modalTitle = d.querySelector(".modal-title"),
-      modalbody = d.querySelector(".modal-body"),
-      t1 = d.querySelector(".titulo1").innerHTML;
-(c1 = d.querySelector(".descripcion1").innerHTML),
-      (t2 = d.querySelector(".titulo2").innerHTML),
-      (c2 = d.querySelector(".descripcion2").innerHTML),
-      (t3 = d.querySelector(".titulo3").innerHTML);
-c3 = d.querySelector(".descripcion3").innerHTML;
-function modal(titulo, cuerpo) {
-      modalTitle.innerHTML = titulo;
-      modalbody.innerHTML = cuerpo;
-}
+/* Esta seccion pertenece al la libreria   MOVING-LETTERS */
+var textWrapper = document.querySelector(".ml3");
+textWrapper.innerHTML = textWrapper.textContent.replace(
+      /\S/g,
+      "<span class='letter'>$&</span>"
+);
+
+anime.timeline({ loop: false }).add({
+      targets: ".ml3 .letter",
+      opacity: [0, 1],
+      easing: "easeInOutQuad",
+      duration: 2250,
+      delay: (el, i) => 150 * (i + 1),
+});
+
+anime.timeline({ loop: false })
+
+      .add({
+            targets: ".ml5 .line",
+            duration: 1000,
+            easing: "easeOutExpo",
+            translateY: (el, i) => -0.625 + 0.625 * 2 * i + "em",
+      })
+      .add({
+            targets: ".ml5 .ampersand",
+            opacity: [0, 1],
+            scaleY: [0.5, 1],
+            easing: "easeOutExpo",
+            duration: 1000,
+            offset: "-=600",
+      })
+      .add({
+            targets: ".ml5 .letters-left",
+            opacity: [0, 1],
+            translateX: ["0.5em", 0],
+            easing: "easeOutExpo",
+            duration: 1000,
+            offset: "-=300",
+      })
+      .add({
+            targets: ".ml5 .letters-right",
+            opacity: [0, 1],
+            translateX: ["-0.5em", 0],
+            easing: "easeOutExpo",
+            duration: 1000,
+            offset: "-=600",
+      });

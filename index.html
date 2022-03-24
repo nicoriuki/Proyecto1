@@ -15,7 +15,7 @@
 
 <body class="index">
   <header class="header">
-    <h1 class="header__title">Somos Fotografos</h1>
+    <h1 class="header__title ml3">Somos Fotografos</h1>
   </header>
   <nav class="navbar navbar-expand-lg  navbar-light bg-light">
     <div class="container-fluid">
@@ -40,63 +40,52 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="pages/galeria.html">Galeria</a></li>
               <li><a class="dropdown-item" href="pages/productos.html">Productos</a></li>
-
             </ul>
           <li class="nav-item">
             <a class="nav-link" href="pages/contacto.html">Contacto</a>
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-light" type="submit">Buscar</button>
+          <input class="form-control me-2 buscar" type="search" placeholder="Buscar" aria-label="Search">
         </form>
       </div>
     </div>
   </nav>
-  <main class="container mt-5">
+  <main class="container mt-5 index__main">
     <div class="row justify-content-around">
-      <div class="col-12 col-md-5 card  mb-5 shadow pt-2 ">
-        <img src="images/index1.jpg" class="card-img-top shadow main__img img_bw" alt="nosotros">
+      <div class="col-12 col-md-5 card  mb-5 shadow pt-2 index__card">
+        <img src="images/index1.jpg" class="card-img-top shadow index__img img_bw" alt="nosotros">
         <div class="card-body">
           <h5 class="card-title shadow">Conocenos</h5>
-          <p class="card-text shadow">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel consequatur
-            perspiciatis beatae modi facere voluptatibus! Accusamus iusto molestias quis est quia temporibus ullam
-            voluptate. Quasi sequi accusantium quas vero nostrum!.</p>
+          <p class="card-text shadow">Te contamos sobre nosotros y toda nuestra historia</p>
           <p class="card-text"><a href="pages/nosotros.html" class="btn btn-secondary btn-animacion">Conocenos</a>
           </p>
         </div>
       </div>
-      <div class="col-12 col-md-5 card mb-5  shadow pt-2">
-        <img src="images/index2.jpg" class="card-img-top shadow main__img  img_bw" alt="Productos">
+      <div class="col-12 col-md-5 card mb-5  shadow pt-2 index__card">
+        <img src="images/index2.jpg" class="card-img-top shadow index__img  img_bw" alt="Productos">
         <div class="card-body">
           <h5 class="card-title shadow">Productos</h5>
-          <p class="card-text shadow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius magnam consequatur
-            similique beatae harum ipsum molestias voluptate maiores optio ipsa. Iste ab, provident ad quibusdam
-            suscipit error reprehenderit vero repudiandae?</p>
+          <p class="card-text shadow">Todos los productos que tenemos a disposicion </p>
           <p class="card-text"><a href="pages/productos.html" class=" btn btn-secondary btn-animacion">Productos</a></p>
         </div>
       </div>
-      <div class="col-12 col-md-5 card mb-5 shadow pt-2">
-        <img src="images/index3.jpg" class="card-img-top shadow main__img" alt="Nuestra galeria">
-        <div class="card-body shadow">
+      <div class="col-12 col-md-5 card mb-5 shadow pt-2 index__card">
+        <img src="images/index3.jpg" class="card-img-top shadow index__img" alt="Nuestra galeria">
+        <div class="card-body">
           <h5 class="card-title shadow">Galeria</h5>
-          <p class="card-text shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa a maxime.
-            Aperiam
-            sequi doloribus hic accusantium nisi, ab sunt magnam, animi reiciendis sed quasi. Eligendi illum iusto sint
-            at!</p>
+          <p class="card-text shadow">Compartimos nuestras mejores fotos para vos</p>
           <p class="card-text"><a href="pages/galeria.html" class="btn btn-secondary btn-animacion">Nuestra Galeria</a>
           </p>
         </div>
       </div>
-      <div class="col-12 col-md-5  card mb-5 shadow pt-2">
-        <img src="images/index4.jpg" class="card-img-top main__img" alt="contactanos">
-        <div class="card-body">
-          <h5 class="card-title shadow">Contactanos</h5>
-          <p class="card-text shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa a maxime.
-            Aperiam
-            sequi doloribus hic accusantium nisi, ab sunt magnam, animi reiciendis sed quasi. Eligendi illum iusto sint
-            at!</p>
-          <p class="card-text"><a href="pages/contacto.html" class="btn btn-secondary btn-animacion">Contactanos</a></p>
+      <div class="col-12 col-md-5  card mb-5 shadow pt-2 index__card">
+        <img src="images/index4.jpg" class="card-img-top index__img " alt="contactanos">
+        <div class="card-body ">
+          <h5 class="card-title shadow ">Contactanos</h5>
+          <p class="card-text shadow ">Si tenes alguna duda o queres algun servicio, Contactanos</p>
+          <p class="card-text "><a href="pages/contacto.html" class="btn btn-secondary btn-animacion">Contactanos</a>
+          </p>
         </div>
       </div>
     </div>
@@ -108,24 +97,26 @@
         <span class="text-muted">© 2022 Nicolas Marquez</span>
       </div>
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
-        <li class="ms-3"><a href="#">
+        <li class="ms-3"><a href="https://www.facebook.com" target="_blank" rel="noopener">
             <div class="facebook "></div>
           </a></li>
         <li class="ms-3">
-          <a href="#">
+          <a href="https://www.whatsapp.com" target="_blank" rel="noopener">
             <div class="whatsapp "></div>
           </a>
         </li>
-        <li class="ms-3"><a href="#">
+        <li class="ms-3"><a href="https://www.instagram.com" target="_blank" rel="noopener">
             <div class="instagram "></div>
           </a></li>
-        <li class="ms-3"><a c href="#">
+        <li class="ms-3"><a href="https://www.twitter.com" target="_blank" rel="noopener">
             <div class="twitter "></div>
           </a></li>
       </ul>
     </footer>
   </div>
   <script src="scripts/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="../scripts/main.js"></script>
 </body>
 
 </html>
